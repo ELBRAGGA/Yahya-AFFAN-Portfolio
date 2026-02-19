@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAHYA AFFAN | Cloud Security Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    ...
+  <!-- Custom Cursor -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <div class="loader-text">⅄</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">⅄</a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-subtitle">Cloud Security Engineer</span>
+            <h1 class="hero-title">
+                <span class="title-line">Hi, I'm</span>
+                <span class="title-name">YAHYA AFFAN</span>
+            </h1>
+            <p class="hero-description">
+                I architect and secure cloud infrastructure on AWS, specializing in identity management, encryption, and DevSecOps. I design resilient systems that are secure by default, ensuring data protection, compliance, and operational excellence in the cloud.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">
+                    View My Work <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn-secondary">
+                    Let's Connect
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">4+ Years</span>
+                    <span class="stat-label">Software Engineering</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Personal Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">LEARNING</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Cloud Security Projects</h2>
+                <p class="section-description">Real-world implementations of cloud security architectures and DevSecOps practices</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: THE 33RD Y -->
+                <div class="project-card" data-project="1">
+                    <div class="project-image">
+                        <img src="assets/images/the-33rd-y-cover.jpg" alt="THE 33RD Y">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://the-33rd-y.netlify.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/ELBRAGGA/THE-33TH-Y" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">THE 33RD Y</h3>
+                        <p class="project-description">Full-stack application with enterprise security controls: JWT authentication, rate limiting, Helmet.js headers, and bcrypt password hashing. Demonstrates secure API design and production-ready security patterns.</p>
+                        <div class="project-tech">
+                            <span>JWT</span>
+                            <span>Rate Limiting</span>
+                            <span>Helmet.js</span>
+                            <span>bcrypt</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: SkyLock -->
+                <div class="project-card" data-project="2">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/4f46e5/ffffff?text=SkyLock" alt="SkyLock">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ELBRAGGA/SkyLock" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">SkyLock</h3>
+                        <p class="project-description">Cloud security platform simulating AWS IAM with JWT authentication, encryption (KMS simulation), role-based access control (RBAC), and comprehensive audit logging. Demonstrates cloud security architecture patterns.</p>
+                        <div class="project-tech">
+                            <span>IAM</span>
+                            <span>RBAC</span>
+                            <span>JWT</span>
+                            <span>Encryption</span>
+                            <span>Audit Logs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Cloud Storage -->
+                <div class="project-card" data-project="3">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/8b5cf6/ffffff?text=Cloud+Storage" alt="Cloud Storage">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/ELBRAGGA/cloud-storage-security" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Cloud Storage Security</h3>
+                        <p class="project-description">C++ cloud storage simulator with salted SHA-256 password hashing, account lockout (brute force protection), MFA simulation, and role-based access control. Demonstrates security fundamentals in system design.</p>
+                        <div class="project-tech">
+                            <span>SHA-256</span>
+                            <span>MFA</span>
+                            <span>RBAC</span>
+                            <span>C++</span>
+                            <span>Secure Coding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GitHub Button -->
+            <div class="projects-footer">
+                <a href="https://github.com/ELBRAGGA" target="_blank" class="btn-outline">
+                    <i class="fab fa-github"></i> View All on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">My Expertise</span>
+                <h2 class="section-title">Cloud Security & Engineering</h2>
+                <p class="section-description">Specialized in AWS security, DevSecOps, and secure application development</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">☁️ AWS Cloud Security</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">IAM (Identity & Access Management)</span>
+                            <span class="skill-percentage">75%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">KMS (Encryption)</span>
+                            <span class="skill-percentage">70%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="65">
+                            <span class="skill-name">CloudTrail & CloudWatch</span>
+                            <span class="skill-percentage">65%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="60">
+                            <span class="skill-name">Security Groups & NACLs</span>
+                            <span class="skill-percentage">60%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="55">
+                            <span class="skill-name">AWS WAF & Shield</span>
+                            <span class="skill-percentage">65%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🔐 Application Security</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">JWT Authentication</span>
+                            <span class="skill-percentage">90%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Rate Limiting</span>
+                            <span class="skill-percentage">85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">bcrypt & Password Hashing</span>
+                            <span class="skill-percentage">80%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">Helmet.js & Security Headers</span>
+                            <span class="skill-percentage">75%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">OWASP Top 10</span>
+                            <span class="skill-percentage">70%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">⚙️ DevSecOps & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">Docker & Container Security</span>
+                            <span class="skill-percentage">70%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="65">
+                            <span class="skill-name">GitHub Actions (CI/CD)</span>
+                            <span class="skill-percentage">65%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="60">
+                            <span class="skill-name">SAST/DAST Tools</span>
+                            <span class="skill-percentage">60%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="55">
+                            <span class="skill-name">Infrastructure as Code</span>
+                            <span class="skill-percentage">55%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 55%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">💻 Programming & Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">90%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Express</span>
+                            <span class="skill-percentage">85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-percentage">85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">Python/Flask</span>
+                            <span class="skill-percentage">75%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">SQL & Databases</span>
+                            <span class="skill-percentage">70%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🎨 Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="95">
+                            <span class="skill-name">HTML5/CSS3</span>
+                            <span class="skill-percentage">95%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">90%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Responsive Design</span>
+                            <span class="skill-percentage">85%</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-shape"></div>
+                        <div class="image-placeholder">
+                            <img src="assets/images/profile.jpg" alt="YAHYA AFFAN" style="width: 100%; height: 100%; object-fit: cover; border-radius: 30px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-subtitle">About Me</span>
+                    <h2 class="section-title">Cloud Security Engineer</h2>
+                    <p class="about-description">
+                        I'm a Cloud Security Engineer focused on architecting and securing AWS environments. My expertise lies in identity and access management (IAM), encryption (KMS), and implementing security controls that protect cloud infrastructure from evolving threats. I design systems with a "secure by default" mindset, ensuring every layer—from network to application—is hardened against attack.
+                    </p>
+                    <p class="about-description">
+                        My portfolio demonstrates practical cloud security implementations: JWT authentication, rate limiting, secure password hashing, and comprehensive audit logging. I'm deeply engaged with DevSecOps practices, container security, and infrastructure as code. Currently, I'm expanding my AWS security expertise while building projects that mirror real-world cloud architectures.
+                    </p>
+                    <p class="about-description">
+                        I approach cloud security holistically—not just implementing tools, but understanding the threat landscape and designing systems that are resilient, compliant, and operationally excellent. My goal is to help organizations build and maintain secure cloud environments where innovation can thrive without compromising safety.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>AWS Security</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-lock"></i>
+                            <span>Encryption & IAM</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Architecture</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-code-branch"></i>
+                            <span>DevSecOps</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-eye"></i>
+                            <span>Threat Modeling</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Continuous Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Let's Secure the Cloud Together</h2>
+                <p class="section-description">Interested in cloud security, AWS architecture, or DevSecOps? Let's connect.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>Yahya.engineer@icloud.com</p>
+                        <a href="mailto:Yahya.engineer@icloud.com" class="contact-link">Send Message</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>@ELBRAGGA</p>
+                        <a href="https://github.com/ELBRAGGA" target="_blank" class="contact-link">View Profile</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>YAHYA AFFAN</p>
+                        <a href="https://www.linkedin.com/in/yahya-affan-87897a249/" target="_blank" class="contact-link">Connect</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-submit">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">⅄</div>
+                <p class="footer-text">Securing the cloud, one architecture at a time.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/ELBRAGGA" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yahya-affan-87897a249/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yahya AFFAN. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
