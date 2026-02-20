@@ -1,15 +1,12 @@
-
-```markdown
 # Yahya AFFAN - Cloud Security Engineer Portfolio
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/website-live-brightgreen)](https://elbragga.github.io/yahya-portfolio)
+[![Website](https://img.shields.io/badge/website-live-brightgreen)](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yahya-affan-87897a249/)
 
 A modern, interactive portfolio website showcasing my journey and projects as a Cloud Security Engineer. Built with vanilla HTML, CSS, and JavaScript, this portfolio demonstrates my technical skills, security-focused mindset, and evolution from frontend development to cloud security engineering.
 
-🔗 **Live Demo:** [https://elbragga.github.io/yahya-portfolio](https://elbragga.github.io/yahya-portfolio)
-
+🔗 **Live Demo:** [https://elbragga.github.io/Yahya-AFFAN-Portfolio/](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
 ---
 
 ## 📋 Table of Contents
