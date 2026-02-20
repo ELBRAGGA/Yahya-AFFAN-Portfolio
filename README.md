@@ -1,4 +1,6 @@
-# Yahya AFFAN - Cloud Security Engineer Portfolio
+
+```markdown
+# Yahya AFFAN - Cloud Engineering Portfolio
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Website](https://img.shields.io/badge/website-live-brightgreen)](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
@@ -7,8 +9,9 @@
 Cloud engineering portfolio featuring hands-on projects in AWS, IAM, JWT authentication, RBAC, and secure cloud architecture. Demonstrates my expertise in building and securing cloud infrastructure.
 
 🔗 **Live Demo:** [https://elbragga.github.io/Yahya-AFFAN-Portfolio/](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
+
 ---
-```markdown
+
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
@@ -21,16 +24,16 @@ Cloud engineering portfolio featuring hands-on projects in AWS, IAM, JWT authent
 - [Deployment](#-deployment)
 - [Future Enhancements](#-future-enhancements)
 - [Contact](#-contact)
-```
+
 ---
 
 ## 📌 Overview
 
-This portfolio represents my professional identity as a Cloud Security Engineer. It's designed to:
+This portfolio represents my professional identity as a Cloud Engineer with a focus on cloud security. It's designed to:
 
-- Showcase my cloud security projects with live demos and GitHub repositories
-- Demonstrate my understanding of security principles through interactive UI elements
-- Tell the story of my evolution from frontend development to cloud security engineering
+- Showcase my cloud engineering projects with live demos and GitHub repositories
+- Demonstrate my understanding of AWS, IAM, authentication, and secure architecture
+- Highlight hands-on implementations of cloud security concepts
 - Provide a clean, professional platform for potential employers to evaluate my skills
 
 The design balances aesthetics with functionality, featuring a dark/light mode toggle, interactive particle background, custom cursor, and responsive layouts that work flawlessly across all devices.
@@ -39,10 +42,10 @@ The design balances aesthetics with functionality, featuring a dark/light mode t
 
 ## ✨ Features
 
-### 🔐 Security-Focused Design Elements
-- **Dual Cursor Concept** (original idea): Cloud icon in light mode, Shield icon in dark mode (simplified to clean circle cursor)
-- **Interactive Particle Background**: Floating particles that react to mouse movement, symbolizing data flow in the cloud
-- **Dark/Light Mode Toggle**: Seamless theme switching with persistent localStorage preferences
+### 🔐 Cloud Security Elements
+- **CS260 Certification**: Cryptography & Network Security (Saylor Academy)
+- **Interactive Particle Background**: Floating particles that react to mouse movement
+- **Dark/Light Mode Toggle**: Seamless theme switching with persistent localStorage
 
 ### 🎨 UI/UX Highlights
 - **Custom Animations**: Fade-in effects on scroll, gradient shifts, and hover interactions
@@ -56,6 +59,7 @@ The design balances aesthetics with functionality, featuring a dark/light mode t
 - Contact form with validation and success notifications
 - Smooth scrolling navigation with active section highlighting
 - Loading animation with personalized "⅄" logo
+- Certifications section with project-style cards
 
 ---
 
@@ -72,7 +76,7 @@ A vinyl store e-commerce platform evolved from a static frontend (2024) to a ful
 - ✅ Secure RESTful API design
 
 **Tech Stack:** Node.js, Express, JWT, bcrypt, Helmet.js, HTML/CSS, JavaScript  
-🔗 [Live Demo](https://the-33rd-y.netlify.app) | 📂 [GitHub](https://github.com/ELBRAGGA/THE-33TH-Y)
+🔗 [Live Demo](https://elbragga.github.io/THE-33TH-Y/) | 📂 [GitHub](https://github.com/ELBRAGGA/THE-33TH-Y)
 
 ---
 
@@ -106,15 +110,26 @@ A C++ cloud storage simulator demonstrating core security concepts at the system
 
 ---
 
+### 4. **CS260 Certification**
+- ✅ **Certificate:** Cryptography & Network Security
+- ✅ **Issuer:** Saylor Academy
+- ✅ **Grade:** 87.50% · 50 hours
+- ✅ **Skills:** Cryptography, Network Security, Encryption, Hashing
+🔗 [View Credential](https://learn.saylor.org/pluginfile.php/1/tool_certificate/issues/1771610832/5647843974YA.pdf)
+
+---
+
 ## 🛠️ Technology Stack
 
 | Category | Technologies |
 |----------|-------------|
-| **Core** | HTML5, CSS3, JavaScript (ES6) |
-| **Styling** | CSS Custom Properties (Variables), Flexbox, CSS Grid, Animations |
+| **Cloud & Security** | AWS (IAM, KMS), JWT, RBAC, Cryptography |
+| **Backend** | Node.js, Express, Python/Flask, C++ |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6) |
+| **Styling** | CSS Custom Properties, Flexbox, Grid, Animations |
 | **Icons** | Font Awesome 6 |
 | **Fonts** | Google Fonts - Inter |
-| **Deployment** | GitHub Pages (current), Netlify (previous) |
+| **Deployment** | GitHub Pages |
 | **Version Control** | Git, GitHub |
 
 ---
@@ -136,6 +151,7 @@ This portfolio itself demonstrates security awareness through:
 
 The portfolio follows these design principles:
 
+- **Cloud-First** - Every project emphasizes cloud architecture
 - **Security by Default** - Every interactive element considers security implications
 - **Progressive Enhancement** - Works on all browsers, enhanced for modern ones
 - **Mobile First** - Designed for mobile, scaled up for desktop
@@ -152,14 +168,17 @@ The portfolio follows these design principles:
 ## 📁 Project Structure
 
 ```
-yahya-portfolio/
+Yahya-AFFAN-Portfolio/
 ├── index.html              # Main HTML file
 ├── styles.css              # All styles with CSS variables
 ├── script.js               # All JavaScript functionality
 ├── assets/
 │   └── images/
-│       ├── profile.jpg     # Professional profile photo
-│       └── the-33rd-y-cover.jpg  # Project cover image
+│       ├── profile.jpg           # Professional profile photo
+│       ├── the-33th-y-cover.jpg  # THE 33RD Y project image
+│       ├── skylock-cover.jpg     # SkyLock project image
+│       ├── cloud-storage-cover.jpg # Cloud Storage project image
+│       └── cs260-cert.jpg        # CS260 certificate image
 ├── README.md               # This documentation
 └── .gitignore              # Git ignore rules
 ```
@@ -172,10 +191,10 @@ To run this portfolio locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/ELBRAGGA/yahya-portfolio.git
+git clone https://github.com/ELBRAGGA/Yahya-AFFAN-Portfolio.git
 
 # Navigate to project directory
-cd yahya-portfolio
+cd Yahya-AFFAN-Portfolio
 
 # Open in browser
 open index.html
@@ -190,10 +209,7 @@ No build tools or dependencies required — it's pure HTML, CSS, and JavaScript!
 ### Current Hosting: GitHub Pages
 This portfolio is deployed on GitHub Pages for free, reliable hosting with no usage limits.
 
-**Deployment URL:** [https://elbragga.github.io/yahya-portfolio](https://elbragga.github.io/yahya-portfolio)
-
-### Previous Hosting: Netlify
-Previously hosted on Netlify (paused due to credit limits). The migration to GitHub Pages ensures permanent free hosting.
+**Deployment URL:** [https://elbragga.github.io/Yahya-AFFAN-Portfolio/](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
 
 ---
 
@@ -201,11 +217,11 @@ Previously hosted on Netlify (paused due to credit limits). The migration to Git
 
 Planned improvements for future versions:
 
+- [ ] **Functional Contact Form** - Integrate Formspree for actual email delivery
 - [ ] **Blog Section** - Articles on cloud security topics
-- [ ] **Interactive Security Demos** - Live JWT authentication simulation
 - [ ] **AWS Architecture Diagrams** - Visual representations of cloud security designs
 - [ ] **Downloadable Resume** - PDF version of CV
-- [ ] **Analytics Integration** - Privacy-focused visitor tracking
+- [ ] **More Certifications** - AWS, CompTIA, ISC²
 - [ ] **Internationalization** - Multi-language support (English/French)
 
 ---
@@ -213,12 +229,12 @@ Planned improvements for future versions:
 ## 📬 Contact
 
 **Yahya AFFAN**  
-Cloud Security Engineer
+Cloud Engineer | Cloud Security
 
 - **Email:** Yahya.engineer@icloud.com
 - **LinkedIn:** [linkedin.com/in/yahya-affan-87897a249](https://www.linkedin.com/in/yahya-affan-87897a249/)
 - **GitHub:** [github.com/ELBRAGGA](https://github.com/ELBRAGGA)
-- **Portfolio:** [elbragga.github.io/yahya-portfolio](https://elbragga.github.io/yahya-portfolio)
+- **Portfolio:** [elbragga.github.io/Yahya-AFFAN-Portfolio/](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
 
 ---
 
@@ -233,10 +249,9 @@ This project is open source and available under the [MIT License](LICENSE).
 - Font Awesome for the icon library
 - Google Fonts for the Inter typeface
 - GitHub Pages for free hosting
+- Saylor Academy for CS260 certification
 - The open-source community for inspiration and resources
 
 ---
 
-**Built with 🔐 by a Cloud Security Engineer, for the world to see.**
-
-*Last updated: February 2026*
+**Built with ☁️ by a Cloud Engineer, for the world to see.**
