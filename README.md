@@ -1,5 +1,3 @@
-
-```markdown
 # Yahya AFFAN - Cloud Engineering Portfolio
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +9,7 @@ Cloud engineering portfolio featuring hands-on projects in AWS, IAM, JWT authent
 🔗 **Live Demo:** [https://elbragga.github.io/Yahya-AFFAN-Portfolio/](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
 
 ---
-
+```markdown
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
@@ -24,7 +22,7 @@ Cloud engineering portfolio featuring hands-on projects in AWS, IAM, JWT authent
 - [Deployment](#-deployment)
 - [Future Enhancements](#-future-enhancements)
 - [Contact](#-contact)
-
+```
 ---
 
 ## 📌 Overview
@@ -137,32 +135,33 @@ A C++ cloud storage simulator demonstrating core security concepts at the system
 ## 🔒 Security Features Demonstrated
 
 This portfolio itself demonstrates security awareness through:
-
+```markdown
 1. **Content Security Policy** - Implemented via meta tags and headers
 2. **Secure External Resources** - All CDN links use HTTPS
 3. **Input Validation** - Contact form sanitization
 4. **XSS Prevention** - Proper escaping of user input
 5. **LocalStorage Security** - Theme preferences stored securely
 6. **Responsive Security** - No sensitive data exposed in frontend
-
+```
 ---
 
 ## 🎯 Design Philosophy
 
 The portfolio follows these design principles:
-
+```markdown
 - **Cloud-First** - Every project emphasizes cloud architecture
 - **Security by Default** - Every interactive element considers security implications
 - **Progressive Enhancement** - Works on all browsers, enhanced for modern ones
 - **Mobile First** - Designed for mobile, scaled up for desktop
 - **Accessibility** - High contrast ratios, semantic HTML, keyboard navigation
 - **Performance** - Optimized assets, minimal dependencies, fast loading
-
+```
+```markdown
 ### Color Palette
 - **Dark Mode:** Deep burgundy (`#0f0505`) with amber (`#f59e0b`) and red (`#b91c1c`) accents
 - **Light Mode:** Clean white with lavender and pink accents
 - **Semantic Colors:** Success (green), Error (red), Warning (orange)
-
+```
 ---
 
 ## 📁 Project Structure
