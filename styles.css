@@ -831,7 +831,7 @@ body {
 /* ===== CONTACT SECTION ===== */
 .contact {
     padding: 6rem 0;
-    background: var(--darker);
+    background: var(--dark);
 }
 
 .contact-content {
