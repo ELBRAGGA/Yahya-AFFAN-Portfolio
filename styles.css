@@ -985,7 +985,9 @@ body {
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
+    margin-top: 2rem;
     border-top: 1px solid var(--gray-dark);
+    background: var(--dark);
     color: var(--gray);
     font-size: 0.9rem;
 }
