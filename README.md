@@ -38,7 +38,7 @@ The design balances aesthetics with functionality, featuring a dark/light mode t
 ---
 
 ## ✨ Features
-```markdown
+
 ### 🔐 Security-Focused Design Elements
 - **Dual Cursor Concept** (original idea): Cloud icon in light mode, Shield icon in dark mode (simplified to clean circle cursor)
 - **Interactive Particle Background**: Floating particles that react to mouse movement, symbolizing data flow in the cloud
@@ -56,21 +56,21 @@ The design balances aesthetics with functionality, featuring a dark/light mode t
 - Contact form with validation and success notifications
 - Smooth scrolling navigation with active section highlighting
 - Loading animation with personalized "⅄" logo
-```
+
 ---
 
 ## 🚀 Projects Showcased
 
 ### 1. **THE 33RD Y** - *Full-Stack Cloud Security Demo*
 A vinyl store e-commerce platform evolved from a static frontend (2024) to a full-stack application with enterprise-grade security controls (2026).
-```markdown
+
 **Security Features:**
 - ✅ JWT authentication for secure user sessions
 - ✅ Rate limiting to prevent brute-force attacks
 - ✅ Helmet.js for hardened HTTP headers
 - ✅ bcrypt password hashing
 - ✅ Secure RESTful API design
-```
+
 **Tech Stack:** Node.js, Express, JWT, bcrypt, Helmet.js, HTML/CSS, JavaScript  
 🔗 [Live Demo](https://the-33rd-y.netlify.app) | 📂 [GitHub](https://github.com/ELBRAGGA/THE-33TH-Y)
 
@@ -78,14 +78,14 @@ A vinyl store e-commerce platform evolved from a static frontend (2024) to a ful
 
 ### 2. **SkyLock** - *Cloud Security Platform Simulation*
 A Python-based platform simulating AWS IAM, KMS encryption, and comprehensive audit logging.
-```markdown
+
 **Security Features:**
 - ✅ Role-Based Access Control (RBAC)
 - ✅ JWT authentication simulation
 - ✅ Encryption at rest (KMS simulation)
 - ✅ Complete audit trail logging
 - ✅ Account lockout after failed attempts
-```
+
 **Tech Stack:** Python, Flask, JWT, bcrypt, RBAC  
 📂 [GitHub](https://github.com/ELBRAGGA/SkyLock)
 
@@ -93,14 +93,14 @@ A Python-based platform simulating AWS IAM, KMS encryption, and comprehensive au
 
 ### 3. **Cloud Storage Security** - *C++ Security Fundamentals*
 A C++ cloud storage simulator demonstrating core security concepts at the system level.
-```markdown
+
 **Security Features:**
 - ✅ Salted SHA-256 password hashing
 - ✅ Account lockout (brute force protection)
 - ✅ Multi-factor authentication (MFA) simulation
 - ✅ Role-based access control
 - ✅ Secure file I/O operations
-```
+
 **Tech Stack:** C++, SHA-256, File I/O, RBAC  
 📂 [GitHub](https://github.com/ELBRAGGA/cloud-storage-security)
 
