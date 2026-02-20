@@ -935,7 +935,7 @@ body {
 
 /* ===== FOOTER ===== */
 .footer {
-    background: var(--dark);
+    background: var(--darker);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 3rem 0 1rem;
 }
