@@ -8,7 +8,7 @@ A modern, interactive portfolio website showcasing my journey and projects as a 
 
 🔗 **Live Demo:** [https://elbragga.github.io/Yahya-AFFAN-Portfolio/](https://elbragga.github.io/Yahya-AFFAN-Portfolio/)
 ---
-
+```markdown
 ## 📋 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
@@ -21,7 +21,7 @@ A modern, interactive portfolio website showcasing my journey and projects as a 
 - [Deployment](#-deployment)
 - [Future Enhancements](#-future-enhancements)
 - [Contact](#-contact)
-
+```
 ---
 
 ## 📌 Overview
