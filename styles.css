@@ -1673,3 +1673,7 @@ body {
         align-items: center;
     }
 }
+/* Force certifications background */
+#certifications.skills {
+    background: var(--darker) !important;
+}
