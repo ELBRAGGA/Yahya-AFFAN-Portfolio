@@ -936,7 +936,7 @@ body {
 /* ===== FOOTER ===== */
 .footer {
     background: var(--darker);
-    border-top: 1px solid var(--gray-dark);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding: 3rem 0 1rem;
 }
 
@@ -953,7 +953,7 @@ body {
 }
 
 .footer-text {
-    color: var(--light);
+    color: var(--gray);
     margin-bottom: 1.5rem;
 }
 
@@ -966,12 +966,12 @@ body {
 .footer-social a {
     width: 40px;
     height: 40px;
-    background: var(--gray-dark);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--light);
+    color: var(--gray);
     text-decoration: none;
     transition: var(--transition);
 }
@@ -985,9 +985,7 @@ body {
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    margin-top: 2rem;
-    border-top: 1px solid var(--gray-dark);
-    background: var(--dark);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--gray);
     font-size: 0.9rem;
 }
