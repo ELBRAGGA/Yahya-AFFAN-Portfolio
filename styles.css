@@ -93,3 +93,6 @@ label.lbl{display:block}
 .ov span{font-size:12px;letter-spacing:.28em;text-transform:uppercase}
 @media (max-width:760px){.ph{width:100%;right:0}.wrap,.hero-in{padding-left:24px;padding-right:24px}.sec{padding-left:24px;padding-right:24px}}
 @media (prefers-reduced-motion:reduce){.pg,.drift{animation:none}html{scroll-behavior:auto}*{transition:none!important}}
+
+/* BIOF is a secondary qualification label. */
+.qualifier{display:inline-block;margin-left:12px;vertical-align:middle;font-size:.38em;font-weight:200;letter-spacing:.18em;color:var(--dim);}
